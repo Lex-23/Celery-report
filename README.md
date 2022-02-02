@@ -36,12 +36,15 @@ Celery имеет открытый исходный код и распростр
 2) Создать и настроить файл Celery.py в корне проекта по соседству с файлом settings.py (если не Джанго, то делать по аналогии)
 3) install Redis/MQRabbit в качестве брокера
 4) Сконфигурировать брокер в фале настроек (settings.py in Django)
-
-**Celery.py**
+5) Можно запускать воркер командой
+~~~
+$ celery -A tasks worker --loglevel=INFO
+~~~
+**celery.py**
 
 ![Screenshot from 2022-02-02 19-25-26](https://user-images.githubusercontent.com/68247479/152194797-89b5302d-c9c6-4836-b249-aa43a119c16a.png)
 
-**Settings.py**
+**settings.py**
 
 ![Screenshot from 2022-02-02 19-43-56](https://user-images.githubusercontent.com/68247479/152198108-993ddee8-be05-48ad-b0d6-513ec346ce96.png)
 
