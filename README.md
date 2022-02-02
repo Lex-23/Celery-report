@@ -43,5 +43,5 @@ Celery имеет открытый исходный код и распростр
 
 **Settings.py**
 
-![Screenshot from 2022-02-02 19-41-39](https://user-images.githubusercontent.com/68247479/152197732-26096c38-d938-43f8-bab0-b5dbb203d9d3.png)
+![Screenshot from 2022-02-02 19-43-56](https://user-images.githubusercontent.com/68247479/152198108-993ddee8-be05-48ad-b0d6-513ec346ce96.png)
 
