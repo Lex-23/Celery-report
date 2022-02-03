@@ -48,3 +48,8 @@ $ celery -A tasks worker --loglevel=INFO
 
 ![Screenshot from 2022-02-02 19-43-56](https://user-images.githubusercontent.com/68247479/152198108-993ddee8-be05-48ad-b0d6-513ec346ce96.png)
 
+ ## Работа с задачами (tasks) в Celery
+ Задачи, сотственно, являются ключевыми блоками построения приложений Celery.
+ 
+ 
+ 
